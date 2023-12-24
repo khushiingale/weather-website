@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./bg_weather.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 20px;
+}
+.search-bar{
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.weather{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+.btn{
+    margin-right: 10px;
+}
+.card{
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+    height: auto;
+    text-align: center !important; 
+    background:linear-gradient(#e66465, #9198e5);
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+@media screen and (max-width : 1140px){
+    .card{
+        width: auto;
+    }
+}
